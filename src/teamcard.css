@@ -1,0 +1,50 @@
+.main-card{ 
+    flex-direction:column;
+    position:relative;
+}
+.parent{
+    display:flex;
+    flex:1 1 auto;
+    justify-content:center;
+    align-items:center;
+    height:50vh;
+    width: 50vw;
+    position: relative;
+    margin-top: -2rem;
+
+}
+
+.game-1,
+.game-2{
+position: absolute;
+}
+
+.game-1{ 
+    z-index: 1;
+    width: 80%;
+    margin-top:70px;
+}
+
+.score{
+    font-size: 160px;
+    color:#57302c;
+    z-index:2;
+    margin-top:5%;
+}
+
+.acc-img{
+    margin-top: 70px;
+    margin-left: 200px;
+    display: block;
+    width: 40%;
+    margin-bottom:-140px;
+
+}
+.button{
+    background-color: #57302c !important;
+    color: #F9F2EC;
+  font-size:20px;
+
+  
+}
+
